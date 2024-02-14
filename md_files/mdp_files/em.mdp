@@ -1,0 +1,18 @@
+integrator  = steep         ; Algorithm (steep = steepest descent minimization)
+emtol       = 1000.0        ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
+emstep      = 0.01          ; Minimization step size
+nsteps      = 50000         ; Maximum number of (minimization) steps to perform
+
+ns_type         = grid          ; search neighboring grid cells
+nstlist         = 1             ; frequency to update the neighbor list and long range forces
+cutoff-scheme   = Verlet	    ; Buffered neighbor searching
+rlist           = 1.2           ; short-range neighborlist cutoff (in nm)
+
+rcoulomb        = 1.2           ; short-range electrostatic cutoff (in nm)
+rvdw            = 1.2           ; short-range van der Waals cutoff (in nm)
+
+coulombtype     = PME           ; Particle Mesh Ewald for long-range electrostatics
+pme_order       = 4             ; cubic interpolation
+fourierspacing  = 0.16          ; grid spacing for FFT
+
+pbc             = xyz           ; Periodic Boundary Conditions in all 3 dimensions
