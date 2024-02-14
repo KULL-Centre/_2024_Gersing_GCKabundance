@@ -4,4 +4,4 @@ This repository contains the Jupyter notebook and input data to generate the plo
 
 The preprinted paper can be found at https://doi.org/10.1101/2023.05.24.542036
 
-Simulation data can be found at https://erda.ku.dk/archives/2f2d2330f3d39b7a7caa3a2409d7f791/published-archive.html
+Simulation data can be found at https://doi.org/10.17894/ucph.4e38c597-fae2-4654-a48a-8e714263c5a1
