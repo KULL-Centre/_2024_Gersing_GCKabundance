@@ -16,4 +16,4 @@ Content of directories in repository:
 
 `md_files/md_setup_example_1v4s_A173F/` contains example scripts for launching energy minimisation, equilibration and production runs.
 
-`md_files/analysis_scripts/` contains scripts used to calculate RMSDs, RMSFs and other trajectory features. 
+`md_files/analysis_scripts/` contains scripts used to calculate RMSDs, RMSFs and other trajectory observables reported in the paper. 
