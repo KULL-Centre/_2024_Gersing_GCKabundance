@@ -18,4 +18,4 @@ Content of directories in repository:
 
 `md_files/analysis_scripts/` contains scripts used to calculate RMSDs, RMSFs and other trajectory observables reported in the paper. 
 
-[![DOI](https://zenodo.org/badge/752969840.svg)](https://zenodo.org/doi/10.5281/zenodo.10837280)
+[![DOI](https://zenodo.org/badge/{github_id}.svg)](https://zenodo.org/badge/latestdoi/{github_id})
